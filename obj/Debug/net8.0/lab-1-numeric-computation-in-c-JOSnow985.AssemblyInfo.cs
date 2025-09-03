@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("lab-1-numeric-computation-in-c-JOSnow985")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eaa6fadadfb74874409fdba690c1fb43aab993a7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5e1673473a51b2f36528f3c85309938a897f54c2")]
 [assembly: System.Reflection.AssemblyProductAttribute("lab-1-numeric-computation-in-c-JOSnow985")]
 [assembly: System.Reflection.AssemblyTitleAttribute("lab-1-numeric-computation-in-c-JOSnow985")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

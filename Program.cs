@@ -1,9 +1,44 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Clear();
+
+// Step 1: Integer Math 1
+Console.WriteLine("18 + 6 =");
+int a = 18;
+int b = 6;
+int c = a + b;
+Console.WriteLine(c);
+
+// Step 2: Integer Math 2
+// Remember to update which variable is writing!
+// Can't use 'int c' again, just 'c =' instead
+Console.WriteLine("18 - 6 =");
+c = a - b;
+Console.WriteLine(c);
+
+Console.WriteLine("18 * 6 =");
+c = a * b;
+Console.WriteLine(c);
+
+// Step 3: Order of Operations 1
+Console.WriteLine("5 + 4 * 2 =");
+a = 5;
+b = 4;
+c = 2;
+int d = a + b * c;
+Console.WriteLine(d);
+
+// Step 4: Order of Operations 2
 Console.WriteLine("(5 + 4) * 2 =");
-int a = 5;
-int b = 4;
-int c = 2;
-int d = (a + b) * c;
-// Remember to update which variable is writing
+a = 5;
+b = 4;
+c = 2;
+d = (a + b) * c;
+Console.WriteLine(d);
+
+// Step 5: Order of Operations 3
+Console.WriteLine("(5 + 4) - 6 * 2 + (12 * 4) / 3 + 12 =");
+a = 5;
+b = 4;
+c = 2;
+d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
 Console.WriteLine(d);
