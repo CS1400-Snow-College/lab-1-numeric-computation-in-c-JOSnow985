@@ -102,3 +102,13 @@ Console.WriteLine($"The range of double is {dmin} to {dmax}!");
 Console.WriteLine("1.0 / 3.0 =");
 double third = 1.0 / 3.0;
 Console.WriteLine(third);
+
+// Step 14: Double Type Challenge
+Console.WriteLine();
+aa = 220;
+bb = 60;
+cc = 9;
+dd = -2;
+double ee = (aa * dd) + (aa / bb) + (cc * bb) - aa;
+Console.WriteLine($"({aa} * {dd}) + ({aa} / {bb}) + ({cc} * {bb}) - {aa} =");
+Console.WriteLine(ee);
