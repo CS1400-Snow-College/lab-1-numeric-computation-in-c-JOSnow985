@@ -52,8 +52,8 @@ c = 3;
 d = (a + b) / c;
 Console.WriteLine(d);
 
-//Step 7: Integer Precision and Limits 1
-//Can place a $ before the string to use {} instead of inputting the literal numbers?
+// Step 7: Integer Precision and Limits 1
+// Can place a $ before the string to use {} instead of inputting the literal numbers?
 Console.WriteLine($"({a} + {b}) / {c} =");
 a = 7;
 b = 4;
@@ -64,3 +64,8 @@ Console.WriteLine($"quotient: {d}");
 Console.WriteLine($"({a} + {b}) % {c} =");
 int e = (a + b) % c;
 Console.WriteLine($"remainder: {e}");
+
+// Step 8: Integer Precision and Limits 2
+int max = int.MaxValue;
+int min = int.MinValue;
+Console.WriteLine($"The range of integers is {min} to {max}!");
