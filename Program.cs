@@ -51,3 +51,16 @@ b = 4;
 c = 3;
 d = (a + b) / c;
 Console.WriteLine(d);
+
+//Step 7: Integer Precision and Limits 1
+//Can place a $ before the string to use {} instead of inputting the literal numbers?
+Console.WriteLine($"({a} + {b}) / {c} =");
+a = 7;
+b = 4;
+c = 3;
+d = (a + b) / c;
+Console.WriteLine($"quotient: {d}");
+// % is the remainder operator, shows whatever the remainder would be
+Console.WriteLine($"({a} + {b}) % {c} =");
+int e = (a + b) % c;
+Console.WriteLine($"remainder: {e}");
