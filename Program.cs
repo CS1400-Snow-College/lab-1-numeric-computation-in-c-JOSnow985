@@ -1,4 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
+using System.Formats.Asn1;
+
 Console.Clear();
 
 // Step 1: Integer Math 1
@@ -128,3 +130,11 @@ decimal deca = 1.0M;
 decimal decb = 3.0M;
 Console.WriteLine("Using decimal, 1.0 / 3.0 =");
 Console.WriteLine(deca / decb);
+
+// Step 17: Area of a Circle
+// A = pi * r^2
+// area = pi * (r * r)
+double r = 2.5;
+double area = Math.PI * (r * r);
+Console.WriteLine("The area of a circle with a radius of 2.5 centimeters is, in double type, is");
+Console.WriteLine(area);
