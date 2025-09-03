@@ -91,3 +91,9 @@ cc = 8;
 Console.WriteLine($"Double type with bigger numbers! ({aa} + {bb}) / {cc}");
 dd = (aa + bb) / cc;
 Console.WriteLine(dd);
+
+// Step 12: Double Type 3
+// max and min already defined for int, using d as a prefix
+double dmax = double.MaxValue;
+double dmin = double.MinValue;
+Console.WriteLine($"The range of double is {dmin} to {dmax}!");
