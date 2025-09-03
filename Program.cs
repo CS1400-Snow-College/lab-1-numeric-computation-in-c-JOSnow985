@@ -42,3 +42,12 @@ b = 4;
 c = 2;
 d = (a + b) - 6 * c + (12 * 4) / 3 + 12;
 Console.WriteLine(d);
+
+// Step 6: Order of Operations 4
+// Integer precision example
+Console.WriteLine("(7 + 4) / 3 =");
+a = 7;
+b = 4;
+c = 3;
+d = (a + b) / c;
+Console.WriteLine(d);
