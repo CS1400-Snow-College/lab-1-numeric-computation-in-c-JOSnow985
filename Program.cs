@@ -73,3 +73,13 @@ Console.WriteLine($"The range of integers is {min} to {max}!");
 // Step 9: Integer Precision and Limits 3
 int what = max + 3;
 Console.WriteLine($"An example of overflow: {what}");
+
+// Step 10: Double Type 1
+// can't redefine a so using aa instead
+// Obviously, can't use 
+double aa = 5;
+double bb = 4;
+double cc = 2;
+Console.WriteLine($"Using double type instead, ({aa} + {bb}) / {cc}");
+double dd = (aa + bb) / cc;
+Console.WriteLine(dd);
