@@ -83,3 +83,11 @@ double cc = 2;
 Console.WriteLine($"Using double type instead, ({aa} + {bb}) / {cc}");
 double dd = (aa + bb) / cc;
 Console.WriteLine(dd);
+
+// Step 11: Double Type 2
+aa = 19;
+bb = 23;
+cc = 8;
+Console.WriteLine($"Double type with bigger numbers! ({aa} + {bb}) / {cc}");
+dd = (aa + bb) / cc;
+Console.WriteLine(dd);
