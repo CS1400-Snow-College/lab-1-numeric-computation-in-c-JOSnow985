@@ -112,3 +112,8 @@ dd = -2;
 double ee = (aa * dd) + (aa / bb) + (cc * bb) - aa;
 Console.WriteLine($"({aa} * {dd}) + ({aa} / {bb}) + ({cc} * {bb}) - {aa} =");
 Console.WriteLine(ee);
+
+// Step 15: Decimal Types 1
+decimal decmin = decimal.MinValue;
+decimal decmax = decimal.MaxValue;
+Console.WriteLine($"The range of the decimal type is {decmin} to {decmax}!");
