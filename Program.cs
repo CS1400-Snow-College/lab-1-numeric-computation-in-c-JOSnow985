@@ -1,7 +1,9 @@
 ﻿// See https://aka.ms/new-console-template for more information
 Console.Clear();
-Console.WriteLine("If a is 18, and b is 6, what is a - b?");
-int a = 18;
-int b = 6;
-int c = a - b;
-Console.WriteLine(c);
+Console.WriteLine("5 + 4 * 2 =");
+int a = 5;
+int b = 4;
+int c = 2;
+int d = a + b * c;
+// Remember to update which variable is writing
+Console.WriteLine(d);
