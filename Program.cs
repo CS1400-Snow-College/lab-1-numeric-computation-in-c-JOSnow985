@@ -97,3 +97,8 @@ Console.WriteLine(dd);
 double dmax = double.MaxValue;
 double dmin = double.MinValue;
 Console.WriteLine($"The range of double is {dmin} to {dmax}!");
+
+// Step 13: Double Type 4
+Console.WriteLine("1.0 / 3.0 =");
+double third = 1.0 / 3.0;
+Console.WriteLine(third);
