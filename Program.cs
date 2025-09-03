@@ -117,3 +117,14 @@ Console.WriteLine(ee);
 decimal decmin = decimal.MinValue;
 decimal decmax = decimal.MaxValue;
 Console.WriteLine($"The range of the decimal type is {decmin} to {decmax}!");
+
+// Step 16: Decimal Types 2
+aa = 1.0;
+bb = 3.0;
+Console.WriteLine("Using double, 1.0 / 3.0 =");
+Console.WriteLine(aa / bb);
+// M suffix on the numbers indicates the constant should use the decimal type, otherwise it assumes it is double
+decimal deca = 1.0M;
+decimal decb = 3.0M;
+Console.WriteLine("Using decimal, 1.0 / 3.0 =");
+Console.WriteLine(deca / decb);
